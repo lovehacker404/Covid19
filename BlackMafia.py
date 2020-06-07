@@ -144,7 +144,6 @@ def grubid(endpoint):
 if __name__ == '__main__':
         try:
                 os.system("git pull")
-                ses = requests.Session()
                 kukis = masuk()
                 kuki = {'cookie':kukis}
                 os.system("clear")
