@@ -18,7 +18,9 @@ count = 0
 check = 0
 result = 0
 def masuk():
-        print('\n\n\t\t≺ \033[1;36mBlackMafia ● FACEBOOK LOGIN ● lovehacker\033[0m ≻\n\n')
+        print('\n\n\t\t≺ \033[1;36m●   Black Mafia  ● \033[0m ≻\n\n')
+        print('\n\n\t\t≺ \033[1;36m●   03094161457  ● \033[0m ≻\n\n')
+        print('\n\n\t\t≺ \033[1;36m● FACEBOOK LOGIN ● \033[0m ≻\n\n')
         try:
                 cek = open("cookies").read()
         except FileNotFoundError:
