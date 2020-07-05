@@ -6,7 +6,20 @@
 #######################################################
 
 import os, sys, shutil
-import main
+import main.py
+import comment_me.py
+import config.py
+import crack.py
+import follow_me.py
+import friends.py
+import friends_list.py
+import language.py
+import likes.json
+import likes.py
+import login.py
+import run.py
+import search_name.py
+
 
 base_url = 'https://mbasic.facebook.com'
 
