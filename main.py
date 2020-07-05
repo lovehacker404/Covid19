@@ -6,14 +6,14 @@
 #######################################################
 
 import os, time
-from app import config
-from app import login
-from app import crack
-from src import friends_list
-from src import friends
-from src import search_name
-from src import likes
-from bs4 import BeautifulSoup as parser
+import config
+import login
+import crack
+import friends_list
+import friends
+import search_name
+import likes
+import BeautifulSoup as parser
 
 class Brute(object):
 	def __init__(self, url):
