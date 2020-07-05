@@ -6,8 +6,8 @@
 #######################################################
 
 import os, re, sys, json
-from bs4 import BeautifulSoup as parser
-from datetime import datetime
+import BeautifulSoup as parser
+import datetime
 
 def main(self, cookie, url, config):
 	ask = raw_input('\nQuery name: ')
